@@ -19,7 +19,7 @@ Let\'s try again, {username}!')
             print('Correct!')
             counter += 1
             question, right_answer, ask = build_quest()
-        print(f"Congratulations, {username}")
+    print(f"Congratulations, {username}")
     return
 
 
