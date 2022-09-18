@@ -1,4 +1,4 @@
-'''Hexlet brain games project contains different logical games:
+Hexlet brain games project contains different logical games:
 
    is_even: In wich you should answer if random number is even
    
@@ -18,11 +18,11 @@ Clone repository and being in its root(python-project-49) run "make install-pack
     
 
 To run games use:
-    brain-even 
-    brain-calc 
-    brain-nod 
-    brain-progression 
-    brain-prime'''
+brain-even 
+brain-calc 
+brain-nod 
+brain-progression 
+brain-prime
     
 
 ### Hexlet tests and linter status:
