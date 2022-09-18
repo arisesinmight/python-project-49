@@ -4,7 +4,8 @@ import sympy
 
 def build_quest():
     ask = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    question = f'{random.randint(1, 100)}'
+    random_number = {random.randint(1, 100)
+    question = random_number
     if sympy.isprime(int(question)) is True:
         right_answer = 'yes'
     else:
