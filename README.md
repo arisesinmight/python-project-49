@@ -1,3 +1,30 @@
+'''Hexlet brain games project contains different logical games:
+
+   is_even: In wich you should answer if random number is even
+   
+   calculator: In wich you should solve random arithmetical expressions
+   
+   nod: In wich you should find out the greatest common divisor of two random numbers
+   
+   progression: In wich you should find out the missing part of random arithmetical progression
+   
+   is prime: In wich you should answer if random number is prime
+
+
+Programm runs on UNIX and MAC systems, to run on Windows use WSL
+
+To install:
+Clone repository and being in its root(python-project-49) run "make install-package", or if you don't use "make" utility, run "python3 -m pip install --user dist/*.whl". You will still need to have "python 3" and "pip" to be installed in your system.
+    
+
+To run games use:
+    brain-even 
+    brain-calc 
+    brain-nod 
+    brain-progression 
+    brain-prime'''
+    
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/arisesinmight/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/arisesinmight/python-project-49/actions)
 
