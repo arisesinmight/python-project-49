@@ -13,7 +13,7 @@ def build_quest():
         counter += 1
     progression_tuple = progression.split(' ')
     right_answer = random.choice(progression_tuple)
-    question = progression.replace(right_answer, '..')
+    question = f'{progression.replace(right_answer, '..')}'
     ask = 'What number is missing in the progression?'
     return question, right_answer, ask
 
