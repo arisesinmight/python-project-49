@@ -1,5 +1,6 @@
 Hexlet brain games project contains different logical games:
 
+
    is_even: In wich you should answer if random number is even
    
    calculator: In wich you should solve random arithmetical expressions
@@ -10,7 +11,6 @@ Hexlet brain games project contains different logical games:
    
    is prime: In wich you should answer if random number is prime
 
-
 Programm runs on UNIX and MAC systems, to run on Windows use WSL
 
 To install:
@@ -18,12 +18,18 @@ Clone repository and being in its root(python-project-49) run "make install-pack
     
 
 To run games use:
+
+
 brain-even 
+
 brain-calc 
+
 brain-nod 
+
 brain-progression 
+
 brain-prime
-    
+
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/arisesinmight/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/arisesinmight/python-project-49/actions)
