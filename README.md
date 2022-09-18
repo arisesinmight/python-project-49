@@ -5,7 +5,7 @@ Hexlet brain games project contains different logical games:
    
    calculator: In wich you should solve random arithmetical expressions
    
-   nod: In wich you should find out the greatest common divisor of two random numbers
+   gcd: In wich you should find out the greatest common divisor of two random numbers
    
    progression: In wich you should find out the missing part of random arithmetical progression
    
@@ -24,7 +24,7 @@ brain-even
 
 brain-calc 
 
-brain-nod 
+brain-gcd 
 
 brain-progression 
 
