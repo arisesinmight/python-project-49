@@ -1,7 +1,10 @@
 import random
 
 
-def build_quest():
+ask_question = 'What number is missing in the progression?'
+
+
+def build_conditions():
     start = random.randint(0, 50)
     step = random.randint(2, 10)
     lenght = random.randint(5, 10)
@@ -15,9 +18,4 @@ def build_quest():
     right_answer = random.choice(progression_tuple)
     hidden_question = progression.replace(right_answer, "..")
     question = f'{hidden_question}'
-    ask = 'What number is missing in the progression?'
-    return question, right_answer, ask
-
-
-if __name__ == '__main__':
-    build_quest()
+    return question, right_answer

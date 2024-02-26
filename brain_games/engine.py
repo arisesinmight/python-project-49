@@ -1,13 +1,16 @@
 import prompt
 
 
-def run_game(build_quest):
+ROUNDS_TO_WIN = 3
+
+
+def run_game(ask_question, build_conditions):
     print("Welcome to the Brain Games!")
     username = prompt.string('May I have your name? ')
-    question, right_answer, ask = build_quest()
-    print(f'Hello, {username}!\n{ask}')
+    print(f'Hello, {username}!\n{ask_question}')
     counter = 0
-    while counter < 3:
+    while counter < ROUNDS_TO_WIN:
+        question, right_answer = build_conditions()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer != right_answer:
@@ -18,10 +21,5 @@ Let\'s try again, {username}!')
         else:
             print('Correct!')
             counter += 1
-            question, right_answer, ask = build_quest()
     print(f"Congratulations, {username}!")
     return
-
-
-if __name__ == '__main__':
-    run_game()
